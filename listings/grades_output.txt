@@ -1,0 +1,8 @@
+>>> import grades
+>>> grades.letter_grade(60)
+'F'
+>>> grades.letter_grade(87)
+'B'
+>>> g = grades.letter_grade(87)
+>>> print g
+B

@@ -1,0 +1,15 @@
+<block> ::= { <statement list> }.
+
+<statement list> ::=
+        <statement>
+     |  <statement list> <statement>.
+	
+<statement> ::=
+        <block>
+     |  <assignment statement>
+     |  <if statement>
+     |  <for loop>
+     |  <while loop>
+     |  <do statement>
+     |  . . .
+

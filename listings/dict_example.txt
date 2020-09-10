@@ -1,0 +1,18 @@
+>>> grades={'A': 4.00, 'B': 3.00, 'C':2.00}
+>>> grades['A']
+4.0
+>>> grades['a']
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 'a'
+>>> grades['D'] = 2.00
+>>> grades['F'] = 0.00
+>>> grades['D']
+2.0
+>>> grades['D'] = 1.00
+>>> grades['D']
+1.0
+>>> grades[4]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 4

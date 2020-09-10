@@ -1,0 +1,2 @@
+<if statement> ::= if (<condition>) <statement> [else <statement>].
+

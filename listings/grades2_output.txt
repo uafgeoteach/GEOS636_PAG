@@ -1,0 +1,5 @@
+>>> import grades2
+>>> print grades2.gpa(['B','A','C','A','B'], [4, 3, 3, 4, 2]) 
+3.25
+>>> print grades2.letter_grade(90)
+B

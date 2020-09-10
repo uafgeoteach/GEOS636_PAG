@@ -1,0 +1,2 @@
+<try_catch> ::= try <block> catch <block>.
+
