@@ -4,5 +4,5 @@
 >>> letter_grade(87)
 'B'
 >>> g = letter_grade(87)
->>> print g
+>>> print(g)
 B

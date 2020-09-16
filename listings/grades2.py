@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 def letter_grade(percent):
     if   percent > 90:
@@ -23,5 +23,5 @@ def gpa(letter_grades, credits):
     return float(total_points)/float(sum(credits))
 
 if __name__ == "__main__":
-    print letter_grade(85)
-    print gpa(['B','A','C','A','B'], [4, 3, 3, 4, 2]) 
+    print(letter_grade(85))
+    print(gpa(['B','A','C','A','B'], [4, 3, 3, 4, 2]))
