@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 def letter_grade(percent):
     if   percent > 90:
@@ -13,4 +13,4 @@ def letter_grade(percent):
         return "F"
 
 if __name__ == "__main__":
-    print letter_grade(85)
+    print(letter_grade(85))
