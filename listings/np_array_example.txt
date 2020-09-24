@@ -1,0 +1,2 @@
+Time loop: 1.39619 s
+Time np  : 0.00164 s
