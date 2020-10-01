@@ -14,7 +14,7 @@ data[310:330, 150:350] = 1
 
 #display data as an image
 plt.imshow(data)
-plt.savefig("face.png")
+
 #show on the screen
 plt.show()
 

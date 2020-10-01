@@ -13,4 +13,4 @@ function letter_grade(){
   fi
 }
 
-letter_grade 85
+letter_grade 55
