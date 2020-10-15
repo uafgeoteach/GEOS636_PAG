@@ -1,0 +1,3 @@
+#!/bin/tcsh
+ssh -2Y roon@redoubt.ees.nmt.edu
+
