@@ -1,6 +1,7 @@
 #!/usr/bin/env python
+
 import sys
-import matplotlib.pyplot as plt 
+import matplotlib.pyplot as plt
 from datetime import datetime
 from numpy    import genfromtxt
 
@@ -24,7 +25,7 @@ plt.errorbar(dates, data['vertical'], yerr=data['vStd'], fmt='.', ecolor='0.5')
 plt.ylabel('vertical (mm)')
 plt.xlabel('date')
 
-print "Saving figure '"+filename+".png'"
+print("Saving figure '"+filename+".png'")
 plt.savefig(filename+'.png')
 
 plt.show()
