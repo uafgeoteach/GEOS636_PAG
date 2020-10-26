@@ -25,7 +25,9 @@ plt.errorbar(dates, data['vertical'], yerr=data['vStd'], fmt='.', ecolor='0.5')
 plt.ylabel('vertical (mm)')
 plt.xlabel('date')
 
+plt.tight_layout()
+
 print("Saving figure '"+filename+".png'")
-plt.savefig(filename+'.png')
+plt.savefig(filename+'.png', bbox_inches='tight')
 
 plt.show()
