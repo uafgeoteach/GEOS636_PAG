@@ -8,7 +8,7 @@ from numpy    import genfromtxt
 filename = sys.argv[1]
 site     = filename[:4]
 
-data     = genfromtxt(filename, dtype=None, delimiter=',', skip_header=12, names=['date', 'north', 'east', 'vertical', 'nStd', 'eStd', 'vStd', 'quality', 'dummy'])
+data     = genfromtxt(filename, encoding='utf-8', dtype=None, delimiter=',', skip_header=12, names=['date', 'north', 'east', 'vertical', 'nStd', 'eStd', 'vStd', 'quality', 'dummy'])
 dates    = [datetime.strptime(x, '%Y-%m-%d') for x in data['date']]
 
 plt.subplot(3,1,1)
