@@ -30,4 +30,3 @@ plt.tight_layout()
 print("Saving figure '"+filename+".png'")
 plt.savefig(filename+'.png', bbox_inches='tight')
 
-plt.show()
