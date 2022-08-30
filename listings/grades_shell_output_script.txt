@@ -1,2 +1,0 @@
-$>./letter_grades.bash
-B

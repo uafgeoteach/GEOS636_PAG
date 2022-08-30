@@ -1,2 +1,0 @@
-$> ./letter_grades.tcsh 85
-B

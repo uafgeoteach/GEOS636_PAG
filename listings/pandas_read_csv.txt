@@ -1,5 +1,0 @@
-        Lat      Lon  Elevation  Type  Number
-Name                                         
-ANMO  34.95 -106.460       1820     1       2
-BAR   34.15 -106.628       2121     1       3
-CL7   32.44 -103.810       1032     1       8

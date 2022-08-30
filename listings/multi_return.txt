@@ -1,3 +1,0 @@
-$> ./multi_return.py
-23
-42

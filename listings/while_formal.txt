@@ -1,2 +1,0 @@
-<while loop> ::= while (<condition>) <block>.
-

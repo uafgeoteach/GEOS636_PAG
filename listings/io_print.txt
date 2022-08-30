@@ -1,6 +1,0 @@
-(1) Hello World!
-(2) [23, 2, 'a']
-(3) A new line
-	and a tab
-	and another
-(4) Float: 3.142 and Int: 44

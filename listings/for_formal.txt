@@ -1,2 +1,0 @@
-<for loop> ::= for (<assignment>; <condition>; <assignment>) <block>.
-

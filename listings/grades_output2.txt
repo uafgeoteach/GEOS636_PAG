@@ -1,8 +1,0 @@
->>> from grades import letter_grade
->>> letter_grade(60)
-'F'
->>> letter_grade(87)
-'B'
->>> g = letter_grade(87)
->>> print(g)
-B
